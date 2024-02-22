@@ -1,0 +1,144 @@
+.header{
+    height: 55px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.youtube-logo{
+    cursor: pointer;
+    height: 20px;
+    margin-left: 20px;
+   
+}
+
+.search-bar{
+    flex:1;
+    height: 34px;
+    padding-left: 16px;
+    border-radius: 40px;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: inset 1px 2px 5px rgba(0, 0 ,0 ,0.5);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.left-section{
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+
+.search-button{
+    width: 50px;
+    height: 38px;
+    background-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+
+.search::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.voice-button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image{
+    height: 20px;
+    width:20px;
+    object-fit: cover;
+}
+
+.image2{
+    height: 20px;
+    width: 20px;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    margin-left:70px;
+    margin-right:35px;
+    max-width: 500px;
+   
+}
+
+.right-section{ 
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.upload-button{
+    width: 56px;
+    height: 40px;
+    border-radius: 28px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-icon{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.nofitications-button{
+    width: 56px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 28px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nofitications-icon{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.profile-button{
+    width: 56px;
+    height: 40px;
+    margin-left: 13px;
+    border-radius: 28px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-icon{
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 18px;
+}
