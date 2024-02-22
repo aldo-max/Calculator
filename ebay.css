@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 1800px
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.hi{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav{
+    top:15px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.nav2{
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+}
+
+.scrollbar1{
+    width: 90px;
+    height: 18px;
+    margin-right: 12px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.scrollbar2{
+    width: 90px;
+    height: 18px;
+    margin-right: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+}
+
+.img1{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.img2{
+    height: 26px;
+    width: 26px;
+    object-fit: cover;
+
+}
+
+.txt{
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.txt2{
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.tekst{
+    text-decoration: none;
+    margin-left: 12px;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 85px;
+    align-items: center;
+}
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 130px;
+}
+.scrollbar3{
+    font-size: 14px;
+    margin-right: 12px;
+    border: none;
+    cursor: pointer;
+}
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-right: 12px;
+}
+.right-section{
+    display: flex;
+    flex-direction: row;
+    margin-right: 130px;
+   
+
+}
+.search{
+    flex: 1;
+    height: 40px;
+    border-width: 2px;
+    border-color: black;
+    border-right: 1px black;
+    border-bottom-color: black;
+    
+}
+.button1{
+    height:40px ;
+    width: 160px;
+    color: white;
+    background: rgb(9, 70, 255);
+    cursor: pointer;
+    border: none;
+}
+
+.button2{ 
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+}
+.All{
+    border-left:none;
+    border-color: black;
+    border-width: 2px;
+    height: 40px;
+    padding-right: 20px;
+}
+.header3{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    cursor: pointer;
+    justify-content: center;
+  
+}
+.header3 p {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.header3 p:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width:1200px;
+    margin: auto;
+}
+
+
+.slide-wrapper .image-list{
+    display: grid;
+    gap:18px;
+    font-size: 0;
+    overflow-x:auto;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+
+.slide-wrapper .image-list::-webkit-scrollbar{
+    display: none;
+}
+
+.slide-wrapper .image-list .image-item {
+    width:325px;
+    height: 400px;
+    object-fit: cover;
+}
+.container .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+
+
+.slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    position: relative;
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track{
+    height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #000;
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-track:active{
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+.title{
+    font-weight: bold;
+    font-weight: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 38px;
+    background-color: #000;
+    color: white;
+}
+
+
+.stock{
+    display: flex;
+    flex-direction: row;
+    height: 160px;    
+    margin-left: 130px;
+    margin-right: 110px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.products{
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.Daily{
+    display: inline;
+    margin-left: 110px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.See{
+    display: inline;
+    font-weight: 100;
+    color: #252323;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.See:hover{
+    text-decoration: underline;
+}
+
+.daily-deals{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    overflow-x: auto;
+    gap: 30px;
+    height: 220px;
+   align-items: center;
+   object-fit: cover;
+    max-width: 1300px;
+    height: 250px;
+    margin-left: 120px;
+}
+
+.New-Items{
+    box-shadow: 0 8px 8px -4px rgb(123, 130, 137);
+    height: 230px;
+    scroll-behavior: smooth;
+    object-fit: cover;      
+}
+
+.Letra-Vip{
+    height: 160px;
+    width: 220px;
+    object-fit: cover;
+}
+
+.container2{
+    max-width: 1170px;
+    background-color: #24262b;
+    padding: 70px 0;
+    margin-top: 330px;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+    
+    
+}
+
+.footer-col1{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+
+.footer-col1 h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col1 h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col1 ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col1 ul li a {
+    font-size:16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+.social-links{
+    color: white;
+}
+
+@media (max-width: 767px){
+ .footer-col1{
+    width: 50%;
+    margin-bottom: 30px;
+ }
+}
